@@ -2,9 +2,9 @@
 import React from 'react'
 
 const Button = ({
-  title, icon, position, handleClick,
+  title, icon, position,
 } : {
-  title: string; icon: React.ReactNode, position: string; handleClick?: () => void; otherClasses?: string;
+  title: string; icon: React.ReactNode, position: string;
 }) => {
   return (
 

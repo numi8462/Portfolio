@@ -15,7 +15,7 @@ export const TextGenerateEffect = ({
   duration?: number;
 }) => {
   const [scope, animate] = useAnimate();
-  let linesArray = words.split('<br>');
+  const linesArray = words.split('<br>');
 
   useEffect(() => {
     animate(
@@ -29,7 +29,7 @@ export const TextGenerateEffect = ({
         delay: stagger(1),
       }
     );
-  }, [scope.current]);
+  }, [animate, duration, filter]);
 
   const renderLines = () => {
     return (
