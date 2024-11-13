@@ -1,12 +1,11 @@
 "use client"
-import React, { useEffect, useRef, useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import { TypewriterEffect } from './ui/typewriter-effect'
 import { IoPerson } from "react-icons/io5";
 import { MdDateRange } from "react-icons/md";
 import { FaPhoneAlt } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import { FaGraduationCap } from "react-icons/fa";
-import gsap from 'gsap';
 
 const About = () => {
   const [key, setKey] = useState(0);
