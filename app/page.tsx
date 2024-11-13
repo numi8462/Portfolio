@@ -1,6 +1,8 @@
 import Hero from "@/components/Hero";
 import { FloatingNav } from "@/components/ui/FloatingNav";
 import { FaHome } from "react-icons/fa";
+import MyWork from "@/components/MyWork";
+import Footer from "@/components/Footer";
 
 
 export default function Home() {
@@ -11,6 +13,8 @@ export default function Home() {
           {name: 'Home', link: '/', icon: <FaHome/>}
         ]}/>
         <Hero />
+        <MyWork />
+        <Footer />
       </div>
     </main>
   );
