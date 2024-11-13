@@ -30,16 +30,25 @@ const config = {
         black: {
           DEFAULT: "#000",
           100: "#000319",
-          200: "rgba(17, 25, 40, 0.75)",
-          300: "rgba(255, 255, 255, 0.125)",
+          200: "#1f2833",
+          
         },
         white: {
           DEFAULT: "#FFF",
           100: "#BEC1DD",
           200: "#C1C2D3",
+          300: "#c5c6c7",
         },
         blue: {
-          "100": "#08182D",
+          100: "#08182D",
+        },
+        mint : {
+          100:"#66fcf1",
+          200:"#205566",
+          300:"#129793"
+        },
+        orange : {
+          100: "#f88379"
         },
         purple: "#CBACF9",
         border: "hsl(var(--border))",
@@ -150,7 +159,7 @@ const config = {
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
-        spotlight: "spotlight 2s ease 3.5s 1 forwards",
+        spotlight: "spotlight 2s ease 4s 1 forwards",
         shimmer: "shimmer 2s linear infinite",
         first: "moveVertical 30s ease infinite",
         second: "moveInCircle 20s reverse infinite",

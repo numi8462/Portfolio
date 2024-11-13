@@ -37,7 +37,7 @@ export const TextGenerateEffect = ({
         {linesArray.map((line, idx) => (
           <motion.div key={idx} style={{ display: 'inline-block' }}>
             <span
-              className={`${idx === 0 ? 'text-yellow-400' : idx === 2 ? 'text-purple' : idx === 3 ? 'text-green-400' : idx === 4 ? 'text-purple' : 'dark:text-white text-black'} opacity-0`}
+              className={`${idx === 0 ? 'text-yellow-400' : idx === 2 ? 'text-purple' : idx === 3 ? 'text-mint-100' : idx === 4 ? 'text-orange-100' : 'dark:text-white text-black'} opacity-0`}
               style={{
                 filter: filter ? "blur(10px)" : "none",
               }}
