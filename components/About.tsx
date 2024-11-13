@@ -1,13 +1,15 @@
 "use client"
-import React from 'react'
+import React, { useEffect, useRef, useState } from 'react'
 import { TypewriterEffect } from './ui/typewriter-effect'
 import { IoPerson } from "react-icons/io5";
 import { MdDateRange } from "react-icons/md";
 import { FaPhoneAlt } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import { FaGraduationCap } from "react-icons/fa";
+import gsap from 'gsap';
 
 const About = () => {
+  const [key, setKey] = useState(0);
   const words = [
     {
       text: "안녕하세요!",
@@ -24,6 +26,17 @@ const About = () => {
     },
 
   ];
+  useEffect(() => {
+    const typewriterAnimation = () => { 
+      setKey(prevKey => prevKey + 1);
+    };   
+
+    typewriterAnimation();
+
+    const interval = setInterval(() => { typewriterAnimation(); }, 10000);
+
+    return () => clearInterval(interval);
+  }, []);
 
   return (
     <div
@@ -31,7 +44,7 @@ const About = () => {
     >
       <div className='h-screen w-full flex flex-col items-center justify-center'>
         <h2 className='text-3xl mb-[10vh]'>
-          <TypewriterEffect words={words} />
+          <TypewriterEffect key={key} words={words} />
         </h2>
 
         <div className='flex text-2xl gap-10 max-lg:flex-col max-sm:text-base md:text-3xl lg:text-2xl'>

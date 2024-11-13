@@ -3,6 +3,7 @@ import React from 'react'
 import { Spotlight } from './ui/Spotlight'
 import { TextGenerateEffect } from './ui/TextGenerateEffect'
 import { useGSAP } from '@gsap/react'
+import { animateWithGsap } from "../utils/animations";
 import gsap from 'gsap'
 import Button from './ui/Button';
 import { FaHandPaper } from "react-icons/fa";
@@ -12,6 +13,7 @@ import { FaHandPaper } from "react-icons/fa";
 const Hero = () => {
     useGSAP(() => {
         gsap.to('#hello', { opacity: 1, y: -50, delay: 6})
+
     })
 
     return (
