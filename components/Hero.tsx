@@ -35,11 +35,11 @@ const Hero = () => {
             </div>
 
             <div className='flex justify-center relative my-20 z-10'>
-                <div className='max-w-[55vw] sm:max-w-[40vw] md:max-w-[40vw] lg:max-w-[60vw] xl:max-w-[55vw] flex flex-col items-center justify-center gap-5'>
+                <div className='max-w-[55vw] sm:max-w-[55vw] md:max-w-[60vw] lg:max-w-[70vw] xl:max-w-[60vw] flex flex-col items-center justify-center gap-5'>
                     <h2 className='uppercase tracking-widest text-sm text-center text-white max-w-96'>Next.js를 사용한 반응형 웹페이지</h2>
 
                     <TextGenerateEffect
-                        className='text-start text-xl lg:text-5xl xl:text-5xl 2xl:text-6xl'
+                        className='text-start text-2xl md:text-3xl lg:text-5xl xl:text-5xl 2xl:text-6xl'
                         words={`잠시만요! <br> 김영호로 삼행시를 준비해봤습니다. <br> 김: 김영호는, <br> 영: 영롱하게 빛나는 아이디어와, <br> 호: 호기심 가득한 개발자입니다`}
                     />
 
@@ -50,14 +50,14 @@ const Hero = () => {
                                 alt="profile image"
                                 className='h-40 w-40 max-md:w-24 max-md:h-24 rounded-full object-cover' 
                             />
-<div className=''>
-                            <p className='text-start my-10 md:tracking-wider text-sm md:text-lg lg:text-2xl'>
-                                안녕하세요,
-                                <br/>프론트앤드/웹 개발자 
-                                <br/>
-                                <span className='text-mint-100'> 김영호</span>  입니다.
-                            </p>
-                        </div>
+                            <div className=''>
+                                <p className='text-start my-10 md:tracking-wider text-sm md:text-lg lg:text-2xl'>
+                                    안녕하세요,
+                                    <br/>프론트앤드/웹 개발자 
+                                    <br/>
+                                    <span className='text-mint-100'> 김영호</span>  입니다.
+                                </p>
+                            </div>
                         </div>
 
                         
