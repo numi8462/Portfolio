@@ -18,11 +18,11 @@ const Hero = () => {
         <div className='pb-20 pt-20'>
             <div>
                 <Spotlight
-                    className="-top-40 left-0 md:left-60 md:-top-20"
+                    className="-top-40 left-0 md:left-60 md:-top-40"
                     fill="white"
                 />
                 <Spotlight
-                    className="-top-20 left-0 md:left-100 md:-top-20"
+                    className="-top-20 left-0 md:left-100 md:-top-40"
                     fill="#66fcf1"
                 />
                 <Spotlight
@@ -32,8 +32,8 @@ const Hero = () => {
                 
             </div>
 
-            <div className="h-screen w-full dark:bg-black-200 bg-white flex items-center justify-center absolute top-0 left-0">
-                <div className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-black-200 bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"/>
+            <div className="h-screen w-full dark:bg-blue-100 bg-white flex items-center justify-center absolute top-0 left-0">
+                <div className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-blue-100 bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"/>
             </div>
 
             <div className='flex justify-center relative my-20 z-10'>
@@ -57,7 +57,7 @@ const Hero = () => {
                                     안녕하세요,
                                     <br/>프론트앤드/웹 개발자 
                                     <br/>
-                                    <span className='text-mint-100'> 김영호</span>  입니다.
+                                    <span className='text-purple'> 김영호</span>  입니다.
                                 </p>
                             </div>
                         </div>
