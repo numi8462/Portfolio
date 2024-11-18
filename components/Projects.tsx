@@ -1,8 +1,6 @@
 "use client"
 import React from 'react'
 import { projects } from '@/data'
-import { LampContainer } from './ui/LampContainer';
-import { motion } from 'framer-motion';
 import { FaLocationArrow } from "react-icons/fa6";
 
 const Projects = () => {
