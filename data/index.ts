@@ -10,7 +10,7 @@ export const navItems = [
       id: 1,
       title: "DeHues BPMN 웹앱",
       des: "비즈니스 프로세스 모델을 더 간편하게 표기 하기 위해 만든 BPMN(비즈니스 프로세스 모델링) 웹앱입니다.",
-      img: "/bpmn.png",
+      img: "./bpmn.png",
       iconLists: ["/re.svg", "/nodejs-w.svg", "/sql-azure.svg", "/docker.svg", "/github-w.svg"],
       link: "https://github.com/numi8462/DeHeus_BPMN",
     },
