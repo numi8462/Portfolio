@@ -24,14 +24,14 @@ const Navbar = () => {
     <nav className={`${ isScrolled ? 'bg-black-100 ':'bg-opacity-0'}  text-white py-7 z-50 w-full fixed top-0 font-bold`}>
       <div className='flex justify-between container '>
         <Link href="/">
-          <h1 className='text-2xl hover:text-purple'>
+          <h1 className='text-2xl px-2 rounded-md hover:text-blue-100 hover:bg-mint-100'>
             Portfolio
           </h1>
         </Link>
 
         <ul className='flex justify-between gap-10 text-xl '>
           {navItems.map((item) => (
-              <li key={item.name} className='hover:text-purple'>
+              <li key={item.name} className='px-2 rounded-md hover:text-blue-100 hover:bg-mint-100'>
                 <Link href={item.link}>
                   {item.name}
                 </Link>
