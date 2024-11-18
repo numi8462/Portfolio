@@ -19,15 +19,15 @@ const Hero = () => {
         <div className='pb-20 pt-20'>
             <div>
                 <Spotlight
-                    className="-top-40 left-0 md:left-60 md:-top-40"
+                    className="-top-40 left-0 md:left-60 max-lg:-top-[10rem] lg:left-[5rem] max-sm:-top-[25rem] lg:-top-[10rem] 2xl:-top-[30rem]" 
                     fill="white"
                 />
                 <Spotlight
-                    className="-top-20 left-0 md:left-100 md:-top-40"
+                    className="-top-20 left-0 md:left-100 max-sm:-top-[20rem] max-lg:-top-[10rem] 2xl:-top-[30rem]"
                     fill="#66fcf1"
                 />
                 <Spotlight
-                    className="h-[80vh] w-[50vw] top-10 left-full"
+                    className="h-[80vh] w-[50vw] max-sm:top-[1rem] top-[-20rem] left-full"
                     fill="#66fcf1"
                 />
                 

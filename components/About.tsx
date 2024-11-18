@@ -29,9 +29,12 @@ const About = () => {
     const typewriterAnimation = () => { 
       setKey(prevKey => prevKey + 1);
     };   
-    const interval = setInterval(() => { typewriterAnimation(); }, 10000);
 
+    const interval = setInterval(() => { typewriterAnimation(); }, 7000);
     return () => clearInterval(interval);
+
+    
+
   }, []);
 
   return (
