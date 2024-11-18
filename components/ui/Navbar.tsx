@@ -30,7 +30,7 @@ const Navbar = () => {
         </Link>
 
         <ul className='flex justify-between gap-10 text-xl '>
-          {navItems.map((item: any) => (
+          {navItems.map((item) => (
               <li key={item.name} className='hover:text-purple'>
                 <Link href={item.link}>
                   {item.name}
