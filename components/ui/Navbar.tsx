@@ -29,7 +29,7 @@ const Navbar = () => {
           </h1>
         </Link>
 
-        <ul className='flex justify-between gap-10 text-xl '>
+        <ul className='flex justify-between gap-10 text-xl max-md:hidden'>
           {navItems.map((item) => (
               <li key={item.name} className='px-2 rounded-md hover:text-blue-100 hover:bg-mint-100'>
                 <Link href={item.link}>
