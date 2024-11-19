@@ -1,7 +1,7 @@
 export const navItems = [
     { name: "About", link: "#about" },
+    { name: "Skills", link: "#skills" },
     { name: "Projects", link: "#projects" },
-    // { name: "Skills", link: "#skills" },
     { name: "Contact", link: "#contact" },
   ];
   
@@ -32,28 +32,39 @@ export const navItems = [
     },
   ];
   
-  export const companies = [
+  export const language = [
     {
       id: 1,
-      name: "cloudinary",
-      img: "./cloud.svg",
-      nameImg: "/cloudName.svg",
+      name: "Javascript",
+      img: "./js.svg",
     },
     {
       id: 2,
-      name: "appwrite",
-      img: "./app.svg",
-      nameImg: "/appName.svg",
+      name: "Java",
+      img: "./java.svg",
+    },
+    {
+      id: 3,
+      name: "Typescript",
+      img: "./ts.svg",
     },
   ];
-  
-  export const workExperience = [
+
+  export const frontend = [
     {
       id: 1,
-      title: "Frontend Engineer Intern",
-      desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
-      className: "md:col-span-2",
-      thumbnail: "./exp1.svg",
+      name: "React",
+      img: "./re.svg",
+    },
+    {
+      id: 2,
+      name: "Next.js",
+      img: "./next.svg",
+    },
+    {
+      id: 3,
+      name: "TailwindCSS",
+      img: "./tail.svg",
     },
   ];
   

@@ -42,7 +42,7 @@ const About = () => {
       id='about'
     >
       <div className='h-screen w-full flex flex-col items-center justify-center'>
-        <h2 className='text-3xl mb-[10vh]'>
+        <h2 className='text-3xl mb-[6rem]'>
           <TypewriterEffect key={key} words={words} />
         </h2>
 

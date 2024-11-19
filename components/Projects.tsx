@@ -1,18 +1,17 @@
-"use client"
 import React from 'react'
 import { projects } from '@/data'
 import { FaLocationArrow } from "react-icons/fa6";
 
 const Projects = () => {
   return (
-    <div id='projects' className='relative py-20 max-w-7xl w-full'>
-      <h1 className='relative heading z-30 mt-28'>
+    <div id='projects' className='relative py-20'>
+      <h1 className='relative heading z-30 mt-24'>
         최근 <span className='text-mint-100'>프로젝트</span> 목록
       </h1>
 
       <div className='flex flex-wrap items-center p-4 gap-16 mt-10 z-100 justify-center' >
         {projects.map(({ id, title, des, img, iconLists, link }) => (
-          <div key={id} className='sm:min-h-[35.5rem] h-[30rem] flex flex-col items-center justify-between sm:w-[35rem] w-[80vw] hover:shadow-2xl bg-black-100 dark:border-white/[0.2] border-black/[0.1] rounded-xl p-6 border zoom-effect'>
+          <div key={id} className='sm:min-h-[35.5rem] h-[26rem] flex flex-col items-center justify-between sm:w-[35rem] w-[80vw] hover:shadow-2xl bg-black-100 dark:border-white/[0.2] border-black/[0.1] rounded-xl p-6 border zoom-effect'>
             <div className='flex items-center justify-center'>
               <img src={img} alt="projectImg" className='object-cover w-full' />
             </div>
