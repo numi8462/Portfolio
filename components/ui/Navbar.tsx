@@ -25,7 +25,7 @@ const Navbar = () => {
       <div className='flex justify-between container '>
         <Link href="/">
           <h1 className='text-2xl px-2 rounded-md hover:text-blue-100 hover:bg-mint-100'>
-            YHK's Portfolio
+            YHK&apos;s Portfolio
           </h1>
         </Link>
 
