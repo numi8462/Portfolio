@@ -30,6 +30,14 @@ export const navItems = [
       iconLists: ["./next.svg", "./tail.svg", "./ts.svg", "./github-w.svg"],
       link: "https://github.com/numi8462/Portfolio",
     },
+    {
+      id: 4,
+      title: "개인 블로그",
+      des: "NEXT.JS, TypeScript, TailwindCSS를 활용하여 만든 개인 블로그입니다. ",
+      img: "./blog.png",
+      iconLists: ["./next.svg", "./tail.svg", "./ts.svg", "./github-w.svg"],
+      link: "https://github.com/numi8462/nextjs-blog",
+    },
   ];
   
   export const language = [
